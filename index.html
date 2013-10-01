@@ -4,28 +4,32 @@
 	<link href="style.css" rel="stylesheet" type="text/css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="jquery.jeditable.mini.js" type="text/javascript" charset="utf-8"></script>
+	<script src="ZeroClipboard.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="script.js" type="text/javascript" charset="utf-8"></script>
 </head>
 <body>
-	<div id="help">
-		Click the part of signature you want to edit. Make your changes then click OK. Once finished, copy the signature and paste it to your mail client.
-	</div>
-	<div id="signature">
-		<div id="top">
-			<div id="name" class="edit">Jane Doe</div>
-			<div id="position" class="edit">Position of person</div>
+	<div id="page">
+		<div id="help">
+			Click the part of signature you want to edit. Make your changes then click OK. Once finished, copy the signature 	and paste it to your mail client.
 		</div>
-		<img src="http://www.ceu.hu/sites/default/files/ceu-logo-black.jpg">
-		<div id="ceu">Central European University</div>
-		<div id="contact">
-			<span class="edit">Nador u. 9. Room 201</span> | <span class="edit">1051 Budapest, Hungary</span><br />
-			<span class="label">Office:</span> + <span class="edit">36.1.327.0000</span> | <span class="label">Mobile:</span> + <span class="edit">36.30.123.4567</span><br />
-			<span class="edit">doej@ceu.hu</span> | <span class="edit">www.ceu.hu</span>
-			<div id="story">
-				<span class="label">See CEU story:</span> <a href="http://www.youtube.com/ceuhungary">www.youtube.com/ceuhungary</a>
+		<div id="signature">
+			<div id="top">
+				<div id="name" class="edit">Jane Doe</div>
+				<div id="position" class="edit">Position of person</div>
 			</div>
+			<img src="http://www.ceu.hu/sites/default/files/ceu-logo-black.jpg">
+			<div id="ceu">Central European University</div>
+			<div id="contact">
+				<span class="edit">Nador u. 9. Room 201</span> | <span class="edit">1051 Budapest, Hungary</span><br />
+				<span class="label">Office:</span> + <span class="edit">36.1.327.0000</span> | <span class="label">Mobile:</	span> + <span class="edit">36.30.123.4567</span><br />
+				<span class="edit">doej@ceu.hu</span> | <span class="edit">www.ceu.hu</span>
+				<div id="story">
+					<span class="label">See CEU story:</span> <a href="http://www.youtube.com/ceuhungary">www.youtube.	com/ceuhungary</a>
+				</div>
+			</div>
+			<a id="commitment" href="http://www.ceu.hu/sustainability">CEU is committed to energy and environmental 	sustainability</a>
 		</div>
-		<a id="commitment" href="http://www.ceu.hu/sustainability">CEU is committed to energy and environmental sustainability</a>
+		<button id="copy-button" data-clipboard-text="Copy Me!" title="Click to copy me.">Copy to Clipboard</button>
 	</div>
 </body>
 </html>
