@@ -1,0 +1,75 @@
+* {
+	font-family: "Open Sans", sans-serif;
+	font-size: 100%;
+}
+
+body {
+	background: #ddd;
+}
+
+#signature, 
+#help {
+	background: white;
+	width: 70%;
+	margin: 2em auto;
+	padding: 1em;
+}
+
+#help {
+	background: transparent none;
+	border: 1px dotted red;
+	background: #fdd;
+}
+
+#top {
+	border-top: 2px dotted black;
+	border-bottom: 2px dotted black;
+	padding: 0.5em 0;
+	margin: 0 0 0.5em 0;
+}
+
+#ceu, 
+a:link, 
+a:hover, 
+a:visited, 
+a:active {
+	color: #009acd;
+	text-decoration: none;
+}
+
+.label, 
+#name, 
+#ceu {
+	text-transform: uppercase;
+	letter-spacing: -1px;
+}
+
+.label {
+	font-weight: 700;
+}
+
+#name {
+	font-weight: 800;
+}
+
+#position {
+	font-weight: 300;
+	font-size: 0.75em;
+	font-style: italic;
+}
+
+#ceu {
+	background: transparent url('http://www.ceu.hu/sites/default/files/ceu-logo-black.jpg') no-repeat scroll left top;
+	padding-top: 60px;
+}
+
+#contact {
+	font-size: 0.75em;
+	border-bottom: 2px dotted black;
+	padding-bottom: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+#commitment {
+	font-size: 0.75em;
+}
