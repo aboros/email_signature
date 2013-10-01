@@ -3,6 +3,12 @@
 	font-size: 100%;
 }
 
+img {
+	border: none;
+	padding: 0;
+	margin: 0;
+}
+
 body {
 	background: #ddd;
 }
@@ -56,11 +62,6 @@ a:active {
 	font-weight: 300;
 	font-size: 0.75em;
 	font-style: italic;
-}
-
-#ceu {
-	background: transparent url('http://www.ceu.hu/sites/default/files/ceu-logo-black.jpg') no-repeat scroll left top;
-	padding-top: 60px;
 }
 
 #contact {
