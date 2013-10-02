@@ -23,11 +23,13 @@
 	} );
 
  	clip.on( 'complete', function(client, args) {
-	  alert("Copied text to clipboard: " + args.text );
+	  // alert("Signature copied to clipboard.");
+	  $('#ready').fadeIn(400).delay(800).fadeOut(400);
 	} );
 	
 	clip.on( 'mouseover', function(client) {
 	  // alert("mouse over");
+	  clip.setText( $('#signature').html() );
 	} );
 	
 	clip.on( 'mouseout', function(client) {

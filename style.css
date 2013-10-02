@@ -27,10 +27,17 @@ body {
 
 #help {
 	background: transparent none;
-	border: 1px dotted red;
+	border: 2px dotted red;
 	background: #fdd;
 }
-
+#ready {
+	display: none;
+	width: 300px;
+	color: #060;
+	background: #dfd;
+	border: 2px dotted #0a0;
+	padding: 1em;
+}
 #top {
 	border-top: 2px dotted black;
 	border-bottom: 2px dotted black;
