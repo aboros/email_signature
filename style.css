@@ -57,6 +57,10 @@ a:active {
 .label {
 	font-weight: 700;
 }
+.edit:hover {
+	cursor: text;
+	background: #F0F0AA;
+}
 
 #name {
 	font-weight: 800;
