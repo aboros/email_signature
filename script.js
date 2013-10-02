@@ -23,7 +23,7 @@
 	} );
 
  	clip.on( 'complete', function(client, args) {
-	  alert("Copied text to clipboard: " + args.html );
+	  alert("Copied text to clipboard: " + args.text );
 	} );
 	
 	clip.on( 'mouseover', function(client) {
