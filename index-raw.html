@@ -1,11 +1,103 @@
 <html>
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,700,800' rel='stylesheet' type='text/css'>
-	<link href="style.css" rel="stylesheet" type="text/css">
 	<script src="http://code.jquery.com/jquery-1.10.2.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="jquery.jeditable.mini.js" type="text/javascript" charset="utf-8"></script>
 	<script src="ZeroClipboard.min.js" type="text/javascript" charset="utf-8"></script>
 	<script src="script.js" type="text/javascript" charset="utf-8"></script>
+	<style>
+  * {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  }
+
+  img {
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  body {
+    background: #ddd;
+  }
+
+  #page {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  #signature, 
+  #help {
+    background: white;
+    margin: 2em 0;
+    padding: 1em;
+  }
+
+  #help {
+    background: transparent none;
+    border: 2px dotted red;
+    background: #fdd;
+  }
+  #ready {
+    display: none;
+    width: 300px;
+    color: #060;
+    background: #dfd;
+    border: 2px dotted #0a0;
+    padding: 1em;
+  }
+  #top {
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black;
+    padding: 0.5em 0;
+    margin: 0 0 0.5em 0;
+  }
+
+  #ceu, 
+  a:link, 
+  a:hover, 
+  a:visited, 
+  a:active {
+    color: #009acd;
+    text-decoration: none;
+  }
+
+  .label, 
+  #name, 
+  #ceu {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+  }
+
+  .label {
+    font-weight: 700;
+  }
+  .edit:hover {
+    cursor: text;
+    background: #F0F0AA;
+  }
+
+  #name {
+    font-weight: 800;
+  }
+
+  #position {
+    font-weight: 300;
+    font-size: 0.75em;
+    font-style: italic;
+  }
+
+  #contact {
+    font-size: 0.75em;
+    border-bottom: 2px dotted black;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+  }
+
+  #commitment {
+    font-size: 0.75em;
+  }
+  </style>
 </head>
 <body>
 	<div id="page">
