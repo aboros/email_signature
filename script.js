@@ -24,7 +24,7 @@
 
  	clip.on( 'complete', function(client, args) {
 	  // alert("Signature copied to clipboard.");
-	  $('#ready').fadeIn(400).delay(800).fadeOut(400);
+	  $('#ready').fadeIn(400).delay(1200).fadeOut(400);
 	} );
 	
 	clip.on( 'mouseover', function(client) {
